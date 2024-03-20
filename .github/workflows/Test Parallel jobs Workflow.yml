@@ -1,4 +1,4 @@
-name: Test Workflow
+name: Test Parallel jobs Workflow
 on: [push]
 
 jobs:
