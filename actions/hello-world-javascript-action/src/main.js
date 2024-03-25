@@ -9,7 +9,7 @@ async function run() {
   try {
     // The `who-to-greet` input is defined in action metadata file
     const whoToGreet = core.getInput('who-to-greet', { required: true })
-    core.info(`Hello on 20th, ${whoToGreet}!`)
+    core.info(`Hello on 25th, ${whoToGreet}!`)
 
     // Get the current time and set as an output
     const time = new Date().toTimeString()
