@@ -24,6 +24,7 @@ jobs:
       - name: List Files After
         run: |
           ls -a
+          cd src
           npm ci
           npm run build --if-present
           npm test
